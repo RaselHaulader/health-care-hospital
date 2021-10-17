@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+.home-banner{
+    background-image: url('../../images/home-banner.png');
+    background-position:center;
+    background-size: cover;
+    height:85vh;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.home-banner h1{
+    font-size: 50px;
+    font-weight:bolder;
+    text-shadow: 2px 0 #013260;
+    letter-spacing:2px;
+    color: #013260;
+}
+.home-banner p{
+    color: rgba(83, 83, 90, 0.822);
+    font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+    .banner-info{
+        width: 100% !important;
+    }
+    .home-banner{
+        height: 100vh;
+    }
+   }
