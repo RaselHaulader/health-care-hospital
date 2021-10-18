@@ -15,8 +15,8 @@ const Header = () => {
                     <Nav className="ms-auto header-nav-link">
                         <Nav.Link href="#features">Home</Nav.Link>
                         <Nav.Link href="#pricing">Services</Nav.Link>
-                        <Nav.Link href="#pricing">Doctors</Nav.Link>
                         <Nav.Link href="#pricing">About</Nav.Link>
+                        <Nav.Link href="#pricing">Doctors</Nav.Link>
                         <Nav.Link href="#pricing">Contact</Nav.Link>
                         <button className="btn border-0 rounded-pill ps-5  text-white ms-3 py-0 gradient-btn">Login <i class="fas ms-3 fa-angle-right"></i></button>
                     </Nav>
